@@ -21,7 +21,7 @@ def about():
     return render_template("about.html")
 
 @app.route('/nada', strict_slashes=False)
-def about():
+def nada():
     return render_template("nada.html")
 
 # Make sure this we are executing this file
